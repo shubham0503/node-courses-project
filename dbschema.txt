@@ -1,0 +1,53 @@
+schools
+    - id
+    - name
+    - curriculum
+
+grades
+    - id
+    - name
+
+school_grades
+    - id
+    - school_id
+    - grade_id
+
+sections
+    - id
+    - grade_id
+    - name
+    - staff_id
+
+subjects  /// Have to check
+    - id
+    - name
+
+section_subjects
+    - id
+    - section_id
+    - subject_id
+
+staffs
+    - id
+    - school_id
+    - name
+    - contact_no
+
+staffs_subjects
+    - id
+    - staff_id
+    - subject_id
+
+section_staff_subjects
+    - id
+    - section_id
+    - staff_id
+    - subject_id
+
+timetables
+    - id
+    - days (MON-SUN)
+    - section_id
+    - subject_id
+    - staff_id
+
